@@ -1,0 +1,50 @@
+
+
+/* Navbar links */
+.nav-link-custom {
+  font-size: 20px !important;
+  color: #ffffff !important;
+  margin-right: 15px;
+}
+
+.nav-link-custom:hover {
+  color: #f8f9fa !important;
+}
+
+/* Centered search bar */
+.navbar-search {
+  flex-grow: 1;
+  justify-content: center;
+  gap:20px;
+}
+
+.navbar-search-bar {
+  width: 60%;          /* adjust width */
+  font-size: 18px;
+  padding: 10px ;
+  margin-left: 480px;
+}
+
+/* Add to cart popup notification */
+.popup-message {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #28a745;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  animation: fadeInOut 2s ease forwards;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(-10px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-10px); }
+}
+
